@@ -1,4 +1,4 @@
-# =======================================================
+er# =======================================================
 # NAME: SS_040_WIN_LAPS-Audit.ps1
 # AUTHOR: GUILLEMARD, Erwan, PERSONNAL PROPRIETY
 # DATE: 2024/08/25
@@ -27,11 +27,9 @@ $_const_version="1.0"
 $_const_date="2024-08-25"
 
 #Constants SMTP
-$From="EGSRV-AD01@erwanguillemard.com"
-$To="erwanguillemard@gmail.com"
-$Object="Test"
-$Body="Test"
-$SMTPServer="10.127.254.30"
+$From="srvAD@contoso.lan"
+$To="johnsmith@gmail.com"
+$SMTPServer="srv.contoso.lan"
 $Port=25
 
 function getADComputersObject {
