@@ -173,7 +173,7 @@ function getLAPSHTML_Report {
     $body+="<meta http-equiv=`"Content-Type`" content=`"text/html`"; charset=UTF-8`" />"
     $body+="<meta http-equiv=`"X-UA-Compatible`" content=`"IE=EmulateIE7`" />"
     $body+="<style>"
-	$body+="table, th, td {border: 1px solid black; border-collapse: collapse;}"
+    $body+="table, th, td {border: 1px solid black; border-collapse: collapse;}"
     $body+="</style>"
     $body+="</head>"
 
@@ -276,7 +276,7 @@ function getLAPSHTML_Report {
 	$body+="</i>"
     $body+="</body>"
     $body+="</html>"
-    $body > C:\Users\Administrateur\Desktop\test.html
+    #$body > C:\Users\Administrateur\Desktop\test.html
     return $body
 }
 
